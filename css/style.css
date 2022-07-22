@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+/********************Class Selectors*****************/
+
+.fullpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.herodiv {
+  display: flex;
+  /* margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto; */
+  /* margin: auto; */
+  width: 275px;
+  padding: 5px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* flex-wrap: wrap; */
+  box-shadow: 5px 5px 30px hsl(220, 14%, 66%);
+}
+
+.heroimage {
+  height: 92%;
+  width: 91%;
+  padding: 10px;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+.herotext {
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  padding: 15px;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding: 0 15px 15px;
+  margin-bottom: 10px;
+}
